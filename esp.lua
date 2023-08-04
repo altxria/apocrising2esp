@@ -138,7 +138,7 @@ run_service.RenderStepped:Connect(function()
                         if playername then
                         	v.Text = tostring(playername ..' ['..mag..' studs]')
                         else 
-                        	v.Text = tostring("pposition" ..' ['..mag..' studs]')
+                        	v.Text = tostring("opposition" ..' ['..mag..' studs]')
                         end
                         v.Color = Color3.new(128,0,128)
                 end
